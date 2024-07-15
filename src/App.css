@@ -1,0 +1,146 @@
+.nav-ul {
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the nav bar is always on top */
+}
+
+.nav-ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.nav-ul li a {
+  padding: 2px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  padding: 10px 0;
+  z-index: 1000; /* Ensures the footer is always on top */
+}
+
+.f1 {
+ margin-bottom: 10px;
+}
+
+.inputbox button {
+  width: 100px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.inputbox button:hover {
+  background-color: #4945a0;
+}
+
+.inputbox {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.inputbox p {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.inputbox input {
+  width: 500px;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.product-list {
+  text-align: center;
+
+  margin: 0;
+}
+
+.product-list li {
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  border: 1px solid skyblue;
+}
+
+.search-product-list {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid skyblue;
+  width: 30%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: skyblue;
+  margin-top: 20px;
+}
+
+.delete-update-list a {
+  margin-right: 10px;
+}
+
+.delete-update-list a:last-child {
+  margin-right: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
